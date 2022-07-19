@@ -120,7 +120,7 @@ There are two practical approaches to set up PurgeCSS to prevent the erasing of
 all styles provided by Frontile. The simplest way is to use magical comments to
 safelist the TailwindCSS components. The other way is to list all the classes
 (or at least their prefix) in the PurgeCSS safelist config.
-Check [PurgeCSS docs](https://purgecss.com/safelisting.html) adn [tailwindcss docs](https://tailwindcss.com/docs/content-configuration#using-regular-expressions) for further info on safelisting.
+Check [PurgeCSS docs](https://purgecss.com/safelisting.html) and [tailwindcss docs](https://tailwindcss.com/docs/content-configuration#using-regular-expressions) for further info on safelisting.
 
 ### Using comments
 
