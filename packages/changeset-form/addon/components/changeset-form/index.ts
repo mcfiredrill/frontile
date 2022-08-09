@@ -73,7 +73,7 @@ export default class ChangesetForm extends Component<ChangesetFormArgs> {
     }
 
     if (typeof this.args.onSubmit === 'function') {
-      this.args.onSubmit(result.data, event);
+      this.args.onSubmit(result, event);
     }
   }
 
